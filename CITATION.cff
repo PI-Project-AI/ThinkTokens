@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use the causal-necessity protocol or the run records from this archive, please cite it as below."
+title: "ThinkTokens: causal-necessity evaluation of machine-native discrete reasoning (research archive)"
+type: software
+authors:
+  - family-names: "Provost"
+    given-names: "Paul"
+    email: "paul.provost@pi-project.ai"
+    affiliation: "PI Project"
+year-original: 2025
+date-released: "2026-08-28"
+url: "https://pi-project.ai/en/research-and-development/machine-native-reasoning/"
+repository-code: "https://github.com/PI-Project-AI/ThinkTokens"
+license: Apache-2.0
+keywords:
+  - latent reasoning
+  - discrete reasoning tokens
+  - chain-of-thought
+  - causal necessity
+  - interpretability
+  - vector quantization
+abstract: >-
+  Public research archive (October 2025 to July 2026) on machine-native
+  discrete reasoning: an air-gapped encoder/decoder that must communicate
+  through discrete IR tokens, graded by a causal-necessity standard
+  (performance must beat baseline and collapse under token perturbation).
+  Contains one small-scale mechanism proof (V17), three characterized
+  negative results, and the primary run records.

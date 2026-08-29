@@ -1,0 +1,10 @@
+{
+  "model_name": "EleutherAI/pythia-1.4b",
+  "model_size": "1.4B",
+  "dataset_size": "medium",
+  "batch_size": 1,
+  "learning_rate": 1e-05,
+  "epochs": 3,
+  "max_samples": 2000,
+  "num_codes": 512
+}

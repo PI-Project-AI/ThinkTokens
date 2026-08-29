@@ -1,0 +1,818 @@
+{
+  "model_size": "410M",
+  "model_name": "EleutherAI/pythia-410m",
+  "checkpoint": "checkpoints_410M/final_model.pt",
+  "num_samples": 100,
+  "accuracy": 0.0,
+  "avg_tokens": 180.41,
+  "total_tokens": 18041,
+  "min_tokens": 78,
+  "max_tokens": 349,
+  "codebook_stats": {
+    "num_codes_used": 313,
+    "num_codes_total": 512,
+    "utilization_pct": 61.1328125
+  },
+  "samples": [
+    {
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for ",
+      "predicted_answer": null,
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 164,
+      "generated": " The the number of the the number of the the number of the the the,,, the the the.\n\nAnswer: The* 2 =2 = <<2*2=2>>10\n\nThe the total the number of the the the,, the the total number of the the total num"
+    },
+    {
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it ",
+      "predicted_answer": null,
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 252,
+      "generated": " The the of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of the of of of of the the the of the the the of o"
+    },
+    {
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repai",
+      "predicted_answer": null,
+      "true_answer": "70000",
+      "correct": false,
+      "num_tokens": 140,
+      "generated": " The the number of the number of the number of,,.\n\nAnswer: The the number of the number of the number of the number of the number of the number.,, many the number of the number,,,,,,,,,,,00., the the "
+    },
+    {
+      "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meter",
+      "predicted_answer": "2",
+      "true_answer": "540",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " The the number of,,,,: the the number of,,,\nAnswer: The the number of the the number of the number of the number of the number of the..\n,,,,,,,,00., the the the.\n\nThe the is has 2/ of the/2 =2 = << ="
+    },
+    {
+      "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, meal",
+      "predicted_answer": null,
+      "true_answer": "20",
+      "correct": false,
+      "num_tokens": 165,
+      "generated": " The* 2 =/ = the the the = the the the.\n\nAnswer: 2* 2 = <<2*2=2>>6 minutes.\nThe the total number,,, the the the,,, the the the,.\n\nAnswer"
+    },
+    {
+      "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second g",
+      "predicted_answer": null,
+      "true_answer": "64",
+      "correct": false,
+      "num_tokens": 190,
+      "generated": " The the number of the the number of the the number of the the the,,, the the the.\n\nAnswer: The the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How",
+      "predicted_answer": "2",
+      "true_answer": "260",
+      "correct": false,
+      "num_tokens": 108,
+      "generated": " The the number of the,,,,\nAnswer: The the number of the,,,,\nAnswer: The the number of the,, the the number of the the the.\nAnswer: The*2 = <<2*2=10>>10\nThe the.\n#### 2"
+    },
+    {
+      "question": "Carla is downloading a 200 GB file. Normally she can download 2 GB/minute, but 40% of the way throug",
+      "predicted_answer": null,
+      "true_answer": "160",
+      "correct": false,
+      "num_tokens": 141,
+      "generated": " The the number of the number of the number of the number of the number, the the the..\n: The the number of the number of the number of the number of the number of the number of the number of the numbe"
+    },
+    {
+      "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot som",
+      "predicted_answer": null,
+      "true_answer": "45",
+      "correct": false,
+      "num_tokens": 299,
+      "generated": " The the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the the number of the the number. How many the number o"
+    },
+    {
+      "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overti",
+      "predicted_answer": null,
+      "true_answer": "460",
+      "correct": false,
+      "num_tokens": 202,
+      "generated": " The the number of the number of,,,,\n:: The the number of the number of the number of the number of the number of the number of the number of the number.,, many the number of the number,,,,,,,,,00., t"
+    },
+    {
+      "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was t",
+      "predicted_answer": null,
+      "true_answer": "366",
+      "correct": false,
+      "num_tokens": 198,
+      "generated": " The the number of the the number of the the the,,,\nAnswer: The the number of the number of the number of the number of the number of the number of the number. and the number of the number of the the "
+    },
+    {
+      "question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost ",
+      "predicted_answer": null,
+      "true_answer": "694",
+      "correct": false,
+      "num_tokens": 147,
+      "generated": " The the number of the,,, the the the of,, the the the.\n\n: The the number of the the number of the number of the number of the number of the number of the number of the number of the number of..\n::,, "
+    },
+    {
+      "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, w",
+      "predicted_answer": "10",
+      "true_answer": "13",
+      "correct": false,
+      "num_tokens": 197,
+      "generated": " The the number of the the number of the the/2 = <<2*2=2>>10\n\nThe the total the,,, the the number of the the total number of the the/2 = <<2*2=10>>10\n\nThe total total number of the the the,,, the the "
+    },
+    {
+      "question": "Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 ",
+      "predicted_answer": null,
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 193,
+      "generated": " The the number of the number of the number of the the number of the the the., the the number of the number of the number of the number of the number,..\n::, is the number of the number of the number o"
+    },
+    {
+      "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled i",
+      "predicted_answer": null,
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 278,
+      "generated": " The the number of the number of the number of the number of the number of the number.,,,,,,,,,,,00., the the the..\nThe the number of the number of the number of the number of the number of the number"
+    },
+    {
+      "question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry worth $5,000 or elec",
+      "predicted_answer": null,
+      "true_answer": "125",
+      "correct": false,
+      "num_tokens": 142,
+      "generated": "5 = <<2*2=2>>10 minutes.\n\nThe the number, the the,,, the the total number of the the number of the the number of the the/ of the number of.,#### $"
+    },
+    {
+      "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 m",
+      "predicted_answer": null,
+      "true_answer": "230",
+      "correct": false,
+      "num_tokens": 113,
+      "generated": " The the number of the number,,,,,,,,,,,,.,\n $: $= <<= $>>2\n $ = $*2 = <<2*2=5>>3\n#### $-2=5=5>>5\n#### $"
+    },
+    {
+      "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a yea",
+      "predicted_answer": null,
+      "true_answer": "57500",
+      "correct": false,
+      "num_tokens": 217,
+      "generated": " If.. how many the the of..\nHow many the the number of the,, the the the.\n\n: The the number of the the number of the the number of the the the., the the the., the the the., the the the.\n\n::, is the nu"
+    },
+    {
+      "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 ",
+      "predicted_answer": null,
+      "true_answer": "7",
+      "correct": false,
+      "num_tokens": 182,
+      "generated": " The the of of the the of., the the the.. how many the the the., the the the..\n: The the number of the the number of the the number of the the the number of the the the number of..\n::, is the number o"
+    },
+    {
+      "question": "Marissa is hiking a 12-mile trail. She took 1 hour to walk the first 4 miles, then another hour to w",
+      "predicted_answer": null,
+      "true_answer": "6",
+      "correct": false,
+      "num_tokens": 322,
+      "generated": " The the number of the number of the number of the number of the number of the number of the number of the number of the the number of the the number. how many the the number of the number, the the th"
+    },
+    {
+      "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pine",
+      "predicted_answer": null,
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 158,
+      "generated": " The the number of the number of the number of the the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the",
+      "predicted_answer": "2",
+      "true_answer": "14",
+      "correct": false,
+      "num_tokens": 126,
+      "generated": " The the number of the the number of the the number of the the/2 = <<2*2=2>>10 minutes.\nThe the,,,,,,,\nAnswer: The total number of the the number of the number of the number of the number of the numbe"
+    },
+    {
+      "question": "Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2",
+      "predicted_answer": null,
+      "true_answer": "7",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " The the number of the,,,,\nAnswer: The the number of the the number of the the/2/2 = <<2*2=10>>12 minutes.\nThe the,,.\nAnswer:5 total = <<2*2=5>>20 hours.\n\n#### has $"
+    },
+    {
+      "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle",
+      "predicted_answer": null,
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 130,
+      "generated": " The the number of,,,\nAnswer: The the number of the the number of the number of the number of the number. and the number,,,,: many the number of the number,,,\n:: The the number of the number of the nu"
+    },
+    {
+      "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original ",
+      "predicted_answer": null,
+      "true_answer": "26",
+      "correct": false,
+      "num_tokens": 224,
+      "generated": " The the number of the the the,,.\nAnswer: The the number of the number of the number of the number of the number of the number.,, many the number of the number of the number of the number. and the num"
+    },
+    {
+      "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cos",
+      "predicted_answer": null,
+      "true_answer": "2",
+      "correct": false,
+      "num_tokens": 153,
+      "generated": " The the number of the,, the the number of the the the.\n\nAnswer: The* 2 = <<2*2=10>>10\n\nThe total total the,,, the the number of the the the,, the the total number of the the the.\n\n: The the number of"
+    },
+    {
+      "question": "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $1",
+      "predicted_answer": null,
+      "true_answer": "243",
+      "correct": false,
+      "num_tokens": 137,
+      "generated": " The the number of the,, the the/ of the/ of the/2 = <<2*2=2>>10\n\nThe the total,, the the number of the the the number of the the the number\n\n 2 total number of, = is*2 = <<2*2=2>>10\n#### $"
+    },
+    {
+      "question": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings o",
+      "predicted_answer": "2",
+      "true_answer": "16",
+      "correct": false,
+      "num_tokens": 208,
+      "generated": " The the number of the the number of the the/2 = <<2*2=2>>12\n\nThe the,,, the the number of the the total number of the the/2 =2 = << = << = <<2*2=10>>10\n\nThe total total number of the the number of th"
+    },
+    {
+      "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop ",
+      "predicted_answer": null,
+      "true_answer": "25",
+      "correct": false,
+      "num_tokens": 256,
+      "generated": " The the number of the the the,,, the the the.\nAnswer: The the number of the number of the number of the number of the number of the number. and the number,,,,: the number of the number, the the the.,"
+    },
+    {
+      "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she",
+      "predicted_answer": null,
+      "true_answer": "104",
+      "correct": false,
+      "num_tokens": 210,
+      "generated": " The the number of the the the,,, the the the.\n\nAnswer: The the number of the number of the number of the number of the number of the the number of the number of the the number of..How many the the nu"
+    },
+    {
+      "question": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's ",
+      "predicted_answer": null,
+      "true_answer": "109",
+      "correct": false,
+      "num_tokens": 153,
+      "generated": " The the number of,,,,\nAnswer: The the number of the the number of the the number of the,.\nAnswer: The the number of the number of the number of the number of the number of the number.,, many the numb"
+    },
+    {
+      "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in t",
+      "predicted_answer": null,
+      "true_answer": "80",
+      "correct": false,
+      "num_tokens": 116,
+      "generated": " The the number of the number,,,,,,,,,,,,,,.,\n $,, = is the number of the number of the number of the number of the number,,.\n,,,,,,,"
+    },
+    {
+      "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business. ",
+      "predicted_answer": "2",
+      "true_answer": "35",
+      "correct": false,
+      "num_tokens": 185,
+      "generated": " The the number of,,,,: the the number of,,,\nAnswer: The the number of the the number of the number of the number of,..\n: The the number of the number of the number of the number of the number of the "
+    },
+    {
+      "question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gre",
+      "predicted_answer": null,
+      "true_answer": "70",
+      "correct": false,
+      "num_tokens": 90,
+      "generated": " The the number of,,,,: many the number of,,,\nAnswer: The the number of the number of the = $ = <<2*2=2>>10\nThe\n $*2 = <<2*2=2>>3\n#### $*"
+    },
+    {
+      "question": "Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Ray",
+      "predicted_answer": null,
+      "true_answer": "23",
+      "correct": false,
+      "num_tokens": 104,
+      "generated": " The the number of,,,:Answer: The the number of,,,,\nAnswer: The the number of the number of the number of the number of the number.,, many the number of the number,,,,,,,,,,,00.,\n $"
+    },
+    {
+      "question": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20",
+      "predicted_answer": null,
+      "true_answer": "9",
+      "correct": false,
+      "num_tokens": 166,
+      "generated": " The the number of the,, the the number of the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number. and the number of the number,,,,,,,,,, is"
+    },
+    {
+      "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he sp",
+      "predicted_answer": null,
+      "true_answer": "75",
+      "correct": false,
+      "num_tokens": 78,
+      "generated": " The: $*2 = << = << = << = << = $<< $2*2=2=4=>>5>>5.\n\n#### $"
+    },
+    {
+      "question": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sel",
+      "predicted_answer": null,
+      "true_answer": "2",
+      "correct": false,
+      "num_tokens": 182,
+      "generated": " The the number of the the number of the the number of the the number of the the the., the the number of the the/2 = <<2*2=2>>10\n\nThe total the of the of the,, the the total number of the the the,, th"
+    },
+    {
+      "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much th",
+      "predicted_answer": null,
+      "true_answer": "10",
+      "correct": false,
+      "num_tokens": 199,
+      "generated": " The the number of,,,,: many the number of the number,,,,: many the number of the number,,,\n: The the number of the number of the number of the number of the number. and the number,,,,\nAnswer: The the"
+    },
+    {
+      "question": "Dana can run at a rate of speed four times faster than she can walk, but she can skip at a rate of s",
+      "predicted_answer": null,
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 201,
+      "generated": " The the number of the number of the number of the number of the number of the the number. how many the number of the the number, the the the..\n: The the number of the number of the number of the numb"
+    },
+    {
+      "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's i",
+      "predicted_answer": null,
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 158,
+      "generated": " The the number of the the number of the the/2 = <<2*2=2>>10 minutes.\nThe the number.\n is has a + 2 = <<2*2=2>>6 minutes.\nThe the number.\n is total number of the number,,,, the the number of the numbe"
+    },
+    {
+      "question": "The great dragon, Perg, sat high atop mount Farbo, breathing fire upon anything within a distance of",
+      "predicted_answer": null,
+      "true_answer": "200",
+      "correct": false,
+      "num_tokens": 208,
+      "generated": " The/ 2 =/ = <<2*2=2>>10 minutes.\n\nThe the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the num"
+    },
+    {
+      "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set",
+      "predicted_answer": null,
+      "true_answer": "26",
+      "correct": false,
+      "num_tokens": 181,
+      "generated": " The the number of the the number of the is the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the number of the..\n,, many"
+    },
+    {
+      "question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 ",
+      "predicted_answer": null,
+      "true_answer": "48",
+      "correct": false,
+      "num_tokens": 217,
+      "generated": " The the number of the the number of the number of the number of the number of the number.,,,,,,,,.,\nThe the number of the number of the number of the number of the number of the number. and the numbe"
+    },
+    {
+      "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles. ",
+      "predicted_answer": null,
+      "true_answer": "20",
+      "correct": false,
+      "num_tokens": 172,
+      "generated": " The the = 2 = <<2*2=2>>10\n\nThe total total number of the,,, the the total number of the the the,,, the the total/2 =2 = <<2*2=10>>10\n\nThe total total number of the the the,, the the,, the the number\n"
+    },
+    {
+      "question": "Meredith is a freelance blogger who writes about health topics and submits to clients each day as he",
+      "predicted_answer": null,
+      "true_answer": "104",
+      "correct": false,
+      "num_tokens": 250,
+      "generated": " The the number of the the number, the the number of the the number. how many the the the,., the the the,.\n\n: The the number of the number of the number of the number of the number of the number of th"
+    },
+    {
+      "question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On h",
+      "predicted_answer": null,
+      "true_answer": "163",
+      "correct": false,
+      "num_tokens": 272,
+      "generated": " The the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of"
+    },
+    {
+      "question": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent",
+      "predicted_answer": null,
+      "true_answer": "800",
+      "correct": false,
+      "num_tokens": 186,
+      "generated": " The the number of the the number of the the number of the the the., the the number of the the the., the the the., the the the., the the the., the the the.\n\n: The the number of the number of the numbe"
+    },
+    {
+      "question": "Tracy used a piece of wire 4 feet long to support tomato plants in the garden. The wire was cut into",
+      "predicted_answer": null,
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 259,
+      "generated": " The the number of the the number of the the the,,, the the the.\nAnswer: The the number of the number of the number of the number of the number of the number.,, many the number of the number,,,,,,,,,,"
+    },
+    {
+      "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the b",
+      "predicted_answer": null,
+      "true_answer": "30",
+      "correct": false,
+      "num_tokens": 94,
+      "generated": " The the number of the the number of the the number of the the/2 = << = << = << = <<2*2=2=12>>10 hours.\n#### has to $+2=5>>10\n#### $"
+    },
+    {
+      "question": "Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How",
+      "predicted_answer": null,
+      "true_answer": "294",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " The the number of,,,\nAnswer: The the number of the the number of the the number of the the the number of..\n,: The the number of the number of the number of the number of the number of the number. and"
+    },
+    {
+      "question": "Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He then travels back at ",
+      "predicted_answer": null,
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 93,
+      "generated": " The the number of the the number of the the/2 = <<2*2=2>>12 minutes.\nThe the number,., the the number of the number,,,,,,,"
+    },
+    {
+      "question": "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books",
+      "predicted_answer": null,
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 194,
+      "generated": " The the number of the the number of the the number of the the/2/2 = <<2*2=2>>10 minutes.\nThe the number, the the,,,, the the total number of the the total number of,,: $ 2. of the number of the numbe"
+    },
+    {
+      "question": "A mechanic charges different rates to repair the tires of trucks and cars.  For each truck tire that",
+      "predicted_answer": null,
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 258,
+      "generated": " The the number of the the the,,, the the the,,, the the the.\n\nAnswer: The the number of the number of the number of the number of the number of the number of the number of the number of the number of"
+    },
+    {
+      "question": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when the",
+      "predicted_answer": null,
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 252,
+      "generated": " The the number number number number number number number number number number number number number number of the the the,,, the the the?\n\nAnswer: The the number of the, the the number of the,,, the t"
+    },
+    {
+      "question": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to pac",
+      "predicted_answer": null,
+      "true_answer": "14",
+      "correct": false,
+      "num_tokens": 137,
+      "generated": " The the of,,,\nAnswer: The the number of the,,,,\nAnswer: The the number of the the number of the number of the number of the number of the number of the number,..,: many the number of the number of th"
+    },
+    {
+      "question": "Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he ",
+      "predicted_answer": null,
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 143,
+      "generated": " The the number of the the number of the,,,,\nAnswer: The the number of the the number of the number of the number of the number of the number. and the number,,,,\nAnswer: The the number of the number o"
+    },
+    {
+      "question": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with identical boxes, ea",
+      "predicted_answer": null,
+      "true_answer": "83",
+      "correct": false,
+      "num_tokens": 229,
+      "generated": " The the number of the number of the number of the number of the the number. how many the number of the the number of the the number of..How many the number of the the number of the the the., the the "
+    },
+    {
+      "question": "Stephen placed an online order for groceries.  His final bill came to $40.00.  Because this was thro",
+      "predicted_answer": null,
+      "true_answer": "57",
+      "correct": false,
+      "num_tokens": 174,
+      "generated": " The the number of the number of the number of the the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. ",
+      "predicted_answer": null,
+      "true_answer": "187",
+      "correct": false,
+      "num_tokens": 131,
+      "generated": " The the number of,,,,: many the number of the number of,,,,\nAnswer: The the number of the number of the number of the number of the number of the..\n,, many the number of the number of the number of t"
+    },
+    {
+      "question": "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good.",
+      "predicted_answer": null,
+      "true_answer": "17",
+      "correct": false,
+      "num_tokens": 208,
+      "generated": " The the number of the number of,,,,\nAnswer: The the number of the number of the number of the number of the number of the number. and the number,,.,\nAnswer: The the number of the number of the number"
+    },
+    {
+      "question": "Janet buys a brooch for her daughter.  She pays $500 for the material to make it and then another $8",
+      "predicted_answer": null,
+      "true_answer": "1430",
+      "correct": false,
+      "num_tokens": 246,
+      "generated": " The the number of the the number of the the number of the the the,,, the the the.\n\nAnswer: The the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "If Marcy works for the same company for 40 years, she gets an annual pension of $50,000/year. Starti",
+      "predicted_answer": null,
+      "true_answer": "25000",
+      "correct": false,
+      "num_tokens": 169,
+      "generated": " The the number of the the number of the the number of the the/2 = <<2*2=2>>12\n\nThe the total the,,, the the number of the the total number of the the/2 =2 = <<2*2=10>>12\n\nThe total total number of th"
+    },
+    {
+      "question": "Aleena subscribed to a streaming service that charges her $140 per month. If the streaming company c",
+      "predicted_answer": null,
+      "true_answer": "1596",
+      "correct": false,
+      "num_tokens": 187,
+      "generated": " The the number of the number of the number of the number of the number. and the number, the the number, how many the the the., the the..\n: The the number of the number of the number of the number of "
+    },
+    {
+      "question": "Sophia is thinking of taking a road trip in her car, and would like to know how far she can drive on",
+      "predicted_answer": null,
+      "true_answer": "300",
+      "correct": false,
+      "num_tokens": 217,
+      "generated": " The the number of the number, the the the,,, the the the.\nAnswer: The the number of the number of the number of the number of the number of the the number of the the number.\nHow many the number has t"
+    },
+    {
+      "question": "Jim spends 2 hours watching TV and then decides to go to bed and reads for half as long.  He does th",
+      "predicted_answer": null,
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 149,
+      "generated": " He has a the of of a/ $ a/. how many the the the..\n,, many the the the,,,,,\nAnswer: The the number of the the number of the the number of the the number of the the number of the the the.\n\n: The the n"
+    },
+    {
+      "question": "There are four schools competing at a basketball tournament. Each school has sent a girls\u2019 basketbal",
+      "predicted_answer": null,
+      "true_answer": "48",
+      "correct": false,
+      "num_tokens": 229,
+      "generated": " The the number of the number, the the the,,,,\nAnswer: The the number of the number of the number of the number of the number of the the number of the number,..,: has the number number number number o"
+    },
+    {
+      "question": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer ",
+      "predicted_answer": null,
+      "true_answer": "595",
+      "correct": false,
+      "num_tokens": 182,
+      "generated": " The the number of the the number of the number of the number of the number of the number.,, many the number of the number,,,,,, many the number of the number of the number of the number of the number"
+    },
+    {
+      "question": "There are twice as many boys as girls at Dr. Wertz's school. If there are 60 girls and 5 students to",
+      "predicted_answer": null,
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 84,
+      "generated": " The the number of the,,, the the the the?\nAnswer: The the = 2 = << = << = $ = $<< $2*2=2=4=>>5.\nSo"
+    },
+    {
+      "question": "Bailey starts with a certain amount of money. Then she receives a weekly allowance of $5 for 8 weeks",
+      "predicted_answer": null,
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 154,
+      "generated": " The the number of the the number of the the number of the the/ of the/2 = <<2*2=2>>12\n\nThe the,,, the the number of the number of the number of the the/2 = <<2*2=2>>12\n\nThe total total number of the "
+    },
+    {
+      "question": "Judy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturday.  If each class h",
+      "predicted_answer": null,
+      "true_answer": "7425",
+      "correct": false,
+      "num_tokens": 118,
+      "generated": " The the of,,,\nAnswer: The the number of the,,,,\nAnswer: The the number of the,, the the number of the the the.\nAnswer: The*2 = <<2*2=10>>10\nThe\n $ $ $ $ $=5>>5\n#### $"
+    },
+    {
+      "question": "Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having tw",
+      "predicted_answer": null,
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 123,
+      "generated": " The the number of,,,,: the the number of the the number of the the/2/2 = <<2*2=10>>10 minutes.\nThe the number.\n,, is has has has $ $ $========>> $ = << $ $ $====>>10\n\n#### has $"
+    },
+    {
+      "question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a sli",
+      "predicted_answer": null,
+      "true_answer": "221",
+      "correct": false,
+      "num_tokens": 102,
+      "generated": " The = << 2*2=2>>3\n << $ $ $ $===>> $\nThe total total number, the the,,,\nAnswer: 2 + 2 = <<2*2=5>>10\n#### $"
+    },
+    {
+      "question": "Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charge",
+      "predicted_answer": null,
+      "true_answer": "255",
+      "correct": false,
+      "num_tokens": 175,
+      "generated": " The the number of the,, the the the of,,\nAnswer: The the number of the the number of the the number of the number of the number of the the the..\n: The the number of the number of the number of the nu"
+    },
+    {
+      "question": "Artie has a flower stand at the Farmers Market. He sells three kinds of flowers: marigolds, petunias",
+      "predicted_answer": null,
+      "true_answer": "88",
+      "correct": false,
+      "num_tokens": 278,
+      "generated": " The the number number number number number number number of the the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "Luke is spending time at the beach building sandcastles. He eventually notices that each level of a ",
+      "predicted_answer": null,
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 163,
+      "generated": " The the number of the the number, the the the.. how many the the number of the the number, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the "
+    },
+    {
+      "question": "Cecilia just bought a new puppy. According to her veterinarian, she has to feed the puppy 1 cup of d",
+      "predicted_answer": null,
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 255,
+      "generated": " The the number of the the the,,, the the the,,, the the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the number of the "
+    },
+    {
+      "question": "If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calc",
+      "predicted_answer": null,
+      "true_answer": "100",
+      "correct": false,
+      "num_tokens": 93,
+      "generated": " The the number of the the number of the is the/2 = <<2*2=2=12=12=>>10\nThe the of the.\n#### has 2* $=2>>10\n#### $"
+    },
+    {
+      "question": "Vincent can buy flowers in packages of 3 for $2.50 or in packages of 2 for $1. How much money does h",
+      "predicted_answer": "2",
+      "true_answer": "6",
+      "correct": false,
+      "num_tokens": 109,
+      "generated": " The the number of the,,, the the the the the the?\n\n: The the/ 2 = <<2*2=2>>10\n\nThe. of the number of the the the number of the the total number of the the/2 = <<2*2=2>>3\n\n#### 2"
+    },
+    {
+      "question": "John adopts a dog.  He takes the dog to the groomer, which costs $100.  The groomer offers him a 30%",
+      "predicted_answer": null,
+      "true_answer": "70",
+      "correct": false,
+      "num_tokens": 140,
+      "generated": " The the number of the the number of the the number of the number of,..\n: The the number of the number of the number of the number of the number of the number.,, many the number of the number,,,,,,,,,"
+    },
+    {
+      "question": "Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters ",
+      "predicted_answer": null,
+      "true_answer": "10",
+      "correct": false,
+      "num_tokens": 191,
+      "generated": " The the number of the,,, the the the of,,\nAnswer: The the number of the the number of the number of the number of the number of the number of the number of..,:: many the number of the number of the n"
+    },
+    {
+      "question": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his ",
+      "predicted_answer": null,
+      "true_answer": "17",
+      "correct": false,
+      "num_tokens": 235,
+      "generated": " The the number of the the number of the the number of the the number of the the/2 = <<2*2=2>>10 minutes.\nThe the,,,, the the the,,, the the number of the the number of the.\n\nAnswer: The* 2 =2 = <<2*2"
+    },
+    {
+      "question": "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. What are their co",
+      "predicted_answer": null,
+      "true_answer": "623",
+      "correct": false,
+      "num_tokens": 209,
+      "generated": " $ to the of of of of of of of of of of of of of of of. how many the the the.. how many the the the., the the the..\n: The the number of the the number of the number of the number of the number of the "
+    },
+    {
+      "question": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are t",
+      "predicted_answer": null,
+      "true_answer": "600",
+      "correct": false,
+      "num_tokens": 95,
+      "generated": " The the number of,,,,: many the number of the the number of the the/2 = <<2*2=2>>10\nThe\n $ $ $ $ $========>> $ = << $ $ $===>>12\n#### $"
+    },
+    {
+      "question": "A football team played 22 games. They won 8 more than they lost. How many did they win?",
+      "predicted_answer": null,
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 282,
+      "generated": " He has a the of of the of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of the the of of of of of of of of of of of the of the of of the the the the.. H"
+    },
+    {
+      "question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been",
+      "predicted_answer": null,
+      "true_answer": "44",
+      "correct": false,
+      "num_tokens": 200,
+      "generated": " The the number number number number number number number of the the the,,, the the the.\nAnswer: The* 2 =/ = the the number of the the the., the the the,,.\n\nAnswer: The the number of the number of the"
+    },
+    {
+      "question": "Greg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues",
+      "predicted_answer": null,
+      "true_answer": "22",
+      "correct": false,
+      "num_tokens": 349,
+      "generated": " The the number of the the the,,, the the the number of the the the.\n\nAnswer: The the number of the number of the number of the the number of the number of the the number of the the number.,, many the"
+    },
+    {
+      "question": "A company pays each of its employees $600 in a month. The company has a policy of increasing the sal",
+      "predicted_answer": null,
+      "true_answer": "9360",
+      "correct": false,
+      "num_tokens": 204,
+      "generated": " The the number of the the the,,, the the the.\n\n: The the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the nu"
+    },
+    {
+      "question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined",
+      "predicted_answer": null,
+      "true_answer": "8000",
+      "correct": false,
+      "num_tokens": 99,
+      "generated": " The the number of,,,,,\nAnswer: The the number of the number of the number of the number of the number of the number of the number. and the number, the number, and the number of the number,,.,\n:,,,,,,"
+    },
+    {
+      "question": "Christina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of att",
+      "predicted_answer": null,
+      "true_answer": "24",
+      "correct": false,
+      "num_tokens": 168,
+      "generated": " The the number of the the number of the the number of the the/ of the number of,.,\n: The the number of the the number of the the number of the number of the number of the number of the number of the "
+    },
+    {
+      "question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic.  He knows that an adult din",
+      "predicted_answer": null,
+      "true_answer": "225",
+      "correct": false,
+      "num_tokens": 235,
+      "generated": " The the number of the the number of the number of the number of the number of the number of the number of the number of the number of the number of the..\n: The the number of the number of the number "
+    },
+    {
+      "question": "Jan has three times the number of pets as Marcia. Marcia has two more pets than Cindy. If Cindy has ",
+      "predicted_answer": null,
+      "true_answer": "28",
+      "correct": false,
+      "num_tokens": 93,
+      "generated": " The the number of,,,\nAnswer: The the number of the the number of the number of the number of the number.,, many the number of the number,,,,,,,,,.,\n $."
+    },
+    {
+      "question": "Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years",
+      "predicted_answer": "2",
+      "true_answer": "4",
+      "correct": false,
+      "num_tokens": 176,
+      "generated": " The the number of the is the number of the is the/2 = <<2*2=2>>10 minutes.\nThe the number of,,,,,\nAnswer: The total number of the the number of the the number of the number of the number of the numbe"
+    },
+    {
+      "question": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald would run the 400-me",
+      "predicted_answer": null,
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 193,
+      "generated": " The the number of the number of the number of the number of the number of the number of the number. and the number of the number of the the number of the the number. How many the the number of the th"
+    },
+    {
+      "question": "In a neighborhood, the number of rabbits pets is twelve less than the combined number of pet dogs an",
+      "predicted_answer": null,
+      "true_answer": "348",
+      "correct": false,
+      "num_tokens": 137,
+      "generated": " The the number of the number, the the the., the the the..\n: The the number of the number of the number of the number of the number of the number of the number of the number.,, many the number of the "
+    },
+    {
+      "question": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many g",
+      "predicted_answer": null,
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 241,
+      "generated": " The the number of the the number of the the the., the the the..\n: The the number of the number of the number of the number of the number of the number. and the number of the number, the the the..\n,, "
+    },
+    {
+      "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more h",
+      "predicted_answer": null,
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 92,
+      "generated": " The the number of,,,,: many the number of the number of,,,,\nAnswer: The the number of the number of the number of the number of the number of the number. and the number,,,,,,,,,,,"
+    },
+    {
+      "question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomat",
+      "predicted_answer": "2",
+      "true_answer": "12",
+      "correct": false,
+      "num_tokens": 198,
+      "generated": " The the number of the the the,,,,,\nAnswer: The the number of the the number of the number of the number of the number of the number of the number of the the number.,, many the number of the the numbe"
+    },
+    {
+      "question": "Cars have lined up on the motorway. Some of the cars drive through in the first 15 minutes of the tr",
+      "predicted_answer": null,
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 269,
+      "generated": " The the number of the number of the number of the number of the number of the the number of the number of the number of the the number. how many the the the,., the the the.\n\n: The the number of the n"
+    },
+    {
+      "question": "Mary is an avid gardener. Yesterday, she received 18 new potted plants from her favorite plant nurse",
+      "predicted_answer": null,
+      "true_answer": "58",
+      "correct": false,
+      "num_tokens": 288,
+      "generated": " The the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of the number of"
+    }
+  ]
+}

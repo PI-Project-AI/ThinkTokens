@@ -1,0 +1,817 @@
+{
+  "model_name": "EleutherAI/pythia-410m",
+  "checkpoint": "checkpoints/final_model.pt",
+  "num_samples": 100,
+  "accuracy": 0.03,
+  "avg_tokens": 204.98,
+  "total_tokens": 20498,
+  "min_tokens": 75,
+  "max_tokens": 355,
+  "codebook_stats": {
+    "num_codes_used": 218,
+    "num_codes_total": 512,
+    "utilization_pct": 42.578125
+  },
+  "samples": [
+    {
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for ",
+      "predicted_answer": null,
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 324,
+      "generated": " Janet makes $16 x 2 = $<<16*2=32>>32 every day.\nShe eats 3 eggs for breakfast every morning and bakes 2 muffins for her friends every day with 4.\nShe makes $32 x 2 = $<<32*2=64>>64 every day.\nShe sel"
+    },
+    {
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it ",
+      "predicted_answer": "5",
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 100,
+      "generated": " The robe takes 2*2=<<2*2=4>>4 bolts of blue fiber.\nThe robe takes 2/2*2=<<2/2*2=1>>1 bolt of white fiber.\nThe total amount of fiber is 4+1=<<4+1=5>>5 bolts.\n#### 5"
+    },
+    {
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repai",
+      "predicted_answer": null,
+      "true_answer": "70000",
+      "correct": false,
+      "num_tokens": 309,
+      "generated": " The house was worth $80,000 because it was built for $80,000\nThe house was worth $50,000 because it was built for $50,000\nThe house was worth $150,000 because it was built for $150,000\nThe house was "
+    },
+    {
+      "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meter",
+      "predicted_answer": "6",
+      "true_answer": "540",
+      "correct": false,
+      "num_tokens": 78,
+      "generated": " He runs 60 / 3 = <<60/3=20>>20 meters each sprint.\nSo he runs 60 / 20 = <<60/20=6>>6 meters a week.\n#### 6"
+    },
+    {
+      "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, meal",
+      "predicted_answer": "105",
+      "true_answer": "20",
+      "correct": false,
+      "num_tokens": 223,
+      "generated": " In the morning, she gives the chickens 15 cups of feed, which is 3 cups of feed * 3 cups of feed per chicken = <<15*3=45>>45 cups of feed.\nIn the afternoon, she gives them another 25 cups of feed, wh"
+    },
+    {
+      "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second g",
+      "predicted_answer": null,
+      "true_answer": "64",
+      "correct": false,
+      "num_tokens": 313,
+      "generated": " The price of the glasses is $5 x .6 = $<<5*.6=3>>3.\nThe cost of the glasses is $5 x .6 = $<<5*.6=3>>3.\nThe cost of the glasses is $5 x .6 = $<<5*.6=3>>3.\nThe cost of the glasses is $5 x .6 = $<<5*.6="
+    },
+    {
+      "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How",
+      "predicted_answer": "120",
+      "true_answer": "260",
+      "correct": false,
+      "num_tokens": 165,
+      "generated": " If Toulouse has twice as many sheep as Charleston, she has 2*20 = <<2*20=40>>40 sheep.\nIf Charleston has 4 times as many sheep as Toulouse, she has 4*20 = <<4*20=80>>80 sheep.\nIf Toulouse has twice a"
+    },
+    {
+      "question": "Carla is downloading a 200 GB file. Normally she can download 2 GB/minute, but 40% of the way throug",
+      "predicted_answer": null,
+      "true_answer": "160",
+      "correct": false,
+      "num_tokens": 324,
+      "generated": " The download takes 2*60=<<2*60=120>>120 minutes\nThe download takes 40/100*60=<<40/100*60=60>>60 minutes\nThe download takes 20*60=<<20*60=240>>240 minutes\nThe download takes 120+60+60=<<120+60+60=240>"
+    },
+    {
+      "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot som",
+      "predicted_answer": null,
+      "true_answer": "45",
+      "correct": false,
+      "num_tokens": 355,
+      "generated": " He drove for 3 hours at 60 mph and then turned around because he realized he forgot something very important at home. So he drove for 3*60=<<3*60=180>>180 mph.\nHe drove for 4 hours at 30 mph and then"
+    },
+    {
+      "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overti",
+      "predicted_answer": null,
+      "true_answer": "460",
+      "correct": false,
+      "num_tokens": 315,
+      "generated": " The overtime pay is $10 x .2 = $<<10*.2=5>>5.\nSo, the overtime pay is $10 x .5 = $<<10*.5=5>>5.\nSo, the rate is $10 x .5 = $<<10*.5=5>>5.\nSo, the rate is $10 x .5 = $<<10*.5=5>>5.\nSo, the rate is $10"
+    },
+    {
+      "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was t",
+      "predicted_answer": "110",
+      "true_answer": "366",
+      "correct": false,
+      "num_tokens": 145,
+      "generated": " The number of downloads in the second month was 60/3 = <<60/3=20>>20 downloads.\nThe number of downloads in the third month was 30/100 * 20 = <<30/100*20=10>>10 downloads.\nThe total number of download"
+    },
+    {
+      "question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost ",
+      "predicted_answer": "60",
+      "true_answer": "694",
+      "correct": false,
+      "num_tokens": 178,
+      "generated": " The cost of the donuts is $68 / dozen = $<<68/ dozen=4>>4.\nThe cost of the mini cupcakes is $80 / dozen = $<<80/ dozen=20>>20.\nThe cost of the mini cheesecakes is $55 / dozen = $<<55/ dozen=5>>5.\nThe"
+    },
+    {
+      "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, w",
+      "predicted_answer": "175",
+      "true_answer": "13",
+      "correct": false,
+      "num_tokens": 142,
+      "generated": " The tree will grow 7*lemones = <<7*lemones=35>>35 lemon trees\nEach year it will grow 35*lemon trees = <<35*lemones=175>>175 lemon trees\nIt will take him 175*lemon trees = <<175*lemones=175>>175 years"
+    },
+    {
+      "question": "Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 ",
+      "predicted_answer": "19",
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 155,
+      "generated": " Melanie sold 3 * 3 = <<3*3=9>>9 vacuum cleaners.\nShe sold 2 * 2 = <<2*2=4>>4 to the red house.\nShe sold 2 * 2 = <<2*2=4>>4 to the orange house.\nSo, she started with 9 + 4 + 2 = <<9+4+2=19>>19 vacuum "
+    },
+    {
+      "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled i",
+      "predicted_answer": null,
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 309,
+      "generated": " In the class, 20/100 * 20 students = <<20/100*20=4>>4 students in jazz dance.\nIn the class, 25/100 * 20 students = <<25/100*20=5>>5 students in hip-hop dance.\nIn the class, 20/100 * 20 students = <<2"
+    },
+    {
+      "question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry worth $5,000 or elec",
+      "predicted_answer": null,
+      "true_answer": "125",
+      "correct": false,
+      "num_tokens": 350,
+      "generated": " The jewelry market will increase by 2.5% while the electronic gadgets market will increase by 1.2% within the same month.\nThe total cost of the two plans is $5,000+$8,000 = $<<5000+8000=22000>>22,000"
+    },
+    {
+      "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 m",
+      "predicted_answer": "110",
+      "true_answer": "230",
+      "correct": false,
+      "num_tokens": 114,
+      "generated": " The first train traveled for 80 miles, so it covered 150 miles.\nThe second train traveled for 80 miles, so it covered 150-80= <<150-80=110>>110 miles.\nThe total distance covered by the two trains in "
+    },
+    {
+      "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a yea",
+      "predicted_answer": null,
+      "true_answer": "57500",
+      "correct": false,
+      "num_tokens": 310,
+      "generated": " Jill earns $20 x 50 = $<<20*50=2000>>2000 in every hour of work.\nSo she earns $2000 x 15 = $<<2000*15=3000>>3000 in every hour of work.\nSo she earns $3000 x 35 = $<<3000*35=3000>>3000 in every hour o"
+    },
+    {
+      "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 ",
+      "predicted_answer": "48",
+      "true_answer": "7",
+      "correct": false,
+      "num_tokens": 130,
+      "generated": " First find how many eggs she eats in 4 weeks by multiplying the number of eggs she eats in the morning by the number of eggs she eats in the morning: 3 eggs * 4 weeks = <<3*4=12>>12 eggs\nThen multipl"
+    },
+    {
+      "question": "Marissa is hiking a 12-mile trail. She took 1 hour to walk the first 4 miles, then another hour to w",
+      "predicted_answer": "10",
+      "true_answer": "6",
+      "correct": false,
+      "num_tokens": 160,
+      "generated": " Marissa walked the first 4 miles at a speed of 1 hour / 4 miles per hour = <<1/4=1>>1 hour per mile.\nShe walked the next two miles at a speed of 2 hours / 4 miles per hour = <<2/4=2>>2 hours per mile"
+    },
+    {
+      "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pine",
+      "predicted_answer": null,
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 323,
+      "generated": " The orange drink is 2/3 * water = <<2/3*water=2>>2 liters of orange.\nThe pineapple drink is 3/5 * water = <<3/5*water=3>>3 liters of pineapple.\nSo the orange drink is 2 + 3 + 3 = <<2+3+3=11>>11 liter"
+    },
+    {
+      "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the",
+      "predicted_answer": null,
+      "true_answer": "14",
+      "correct": false,
+      "num_tokens": 304,
+      "generated": " Samantha was born at the age of 23, which is 6 years before Samantha.\nSamantha's son was born at the age of 30, which is 31 years old.\nSamantha's son was born at the age of 30, which is 30 years old."
+    },
+    {
+      "question": "Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2",
+      "predicted_answer": "192",
+      "true_answer": "7",
+      "correct": false,
+      "num_tokens": 202,
+      "generated": " On Tuesday, Billy sold 8*3=<<8*3=24>>24 DVDs.\nOn Wednesday, he sold 24*2=<<24*2=48>>48 DVDs.\nOn Thursday, he sold 48*2=<<48*2=96>>96 DVDs.\nSo, he sold 24+48+96=<<24+48+96=192>>192 DVDs on Wednesday.\n"
+    },
+    {
+      "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle",
+      "predicted_answer": "240",
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 94,
+      "generated": " The candle melts by 2*2=<<2*2=4>>4 meters every hour.\nSo the candle will be 4*60=<<4*60=240>>240 meters after burning from 1:00 to 5:00.\n#### 240"
+    },
+    {
+      "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original ",
+      "predicted_answer": "22",
+      "true_answer": "26",
+      "correct": false,
+      "num_tokens": 132,
+      "generated": " Kyle spent $19.50 on the book and received a 25% discount so he spent $19.50 - $19.50 = $<<19.5-19.5=5>>5 on the discount.\nThe original price of the book was $19.50 and the discount was $5 so the boo"
+    },
+    {
+      "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cos",
+      "predicted_answer": "100",
+      "true_answer": "2",
+      "correct": false,
+      "num_tokens": 221,
+      "generated": " Each chicken meal costs $12 x 5 = $<<12*5=30>>30.\nEach pack of milk costs $3 x 4 = $<<3*4=12>>12.\nEach pack of apples costs $1.5 x 4 = $<<1.5*4=6>>6.\nEach pack of pizza costs $8.50 x 4 = $<<8.5*4=24>"
+    },
+    {
+      "question": "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $1",
+      "predicted_answer": null,
+      "true_answer": "243",
+      "correct": false,
+      "num_tokens": 323,
+      "generated": " The shorts cost $16.50 because 3 x $16 = $<<3*16=32>>32\nThe pants cost $22.50 because 3 x $22 = $<<3*22=66>>66\nThe shoes cost $42 because 3 x $42 = $<<3*42=42>>42\nThe shorts and pants cost $16.50 bec"
+    },
+    {
+      "question": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings o",
+      "predicted_answer": null,
+      "true_answer": "16",
+      "correct": false,
+      "num_tokens": 316,
+      "generated": " The cost of the ice cream is 15 servings * $4.00 per serving = $<<15*4=60>>60.00\nThe cost of the ice cream is 60 days * $4.00 per serving = $<<60*4=240>>240.00\nThe cost of the ice cream is $240.00 fo"
+    },
+    {
+      "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop ",
+      "predicted_answer": "60",
+      "true_answer": "25",
+      "correct": false,
+      "num_tokens": 122,
+      "generated": " The first stop was 20 + 20 = <<20+20=30>>30 miles.\nThe second stop was 15 + 15 = <<15+15=30>>30 miles.\nSo, the total distance he traveled between his two stops was 30 + 30 + 30 = <<30+30+30=60>>60 mi"
+    },
+    {
+      "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she",
+      "predicted_answer": "63",
+      "true_answer": "104",
+      "correct": false,
+      "num_tokens": 117,
+      "generated": " The two pairs of high heels cost $33 x 2 = $<<33*2=66>>66.\nThe boots cost $66 - $33 = $<<66-33=63>>63.\n#### 63"
+    },
+    {
+      "question": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's ",
+      "predicted_answer": null,
+      "true_answer": "109",
+      "correct": false,
+      "num_tokens": 293,
+      "generated": " Darrell's age is 162 / 7 = <<162/7=54>>54 years old.\nAllen's age is 54 + 10 = <<54+10=68>>68 years old.\nSo, their ages are in the ratio of 7:11, which is 7:11 / 6 = <<7:11/6=5>>5.\nSo, their ages are "
+    },
+    {
+      "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in t",
+      "predicted_answer": "135",
+      "true_answer": "80",
+      "correct": false,
+      "num_tokens": 154,
+      "generated": " The first two friends each have 80/2 = <<80/2=40>>40 jelly beans.\nThe third friend has a total of 40 + 20 + 25 = <<40+20+25=75>>75 jelly beans.\nThe average guess is 40 + 20 + 25 + 80 + 40 + 20 + 25 ="
+    },
+    {
+      "question": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business. ",
+      "predicted_answer": "1920",
+      "true_answer": "35",
+      "correct": false,
+      "num_tokens": 110,
+      "generated": " Each dog takes .5*60=<<.5*60=120>>120 minutes a day\nSo each dog takes 120*60=<<120*60=1920>>1920 minutes a week\nSo he spends a total of 10*1920=<<10*1920=1920>>1920 minutes a week\n#### 1920"
+    },
+    {
+      "question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gre",
+      "predicted_answer": "110",
+      "true_answer": "70",
+      "correct": false,
+      "num_tokens": 93,
+      "generated": " There are 30 more gold coins than silver coins because there are 30 - 10 = <<30-10=20>>20 coins\nThere are 110 coins because there are 30 + 20 = <<30+20=110>>110\nThere are 110 coins because Gretchen h"
+    },
+    {
+      "question": "Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Ray",
+      "predicted_answer": "5",
+      "true_answer": "23",
+      "correct": false,
+      "num_tokens": 123,
+      "generated": " If Raymond has 40, then half of the number of jewels is 40/2 = <<40/2=20>>20.\nIf Siobhan has 2 fewer jewels than Aaron, then she has 20-2 = <<20-2=18>>18.\nIf she has 40 jewels, then she has 40/18 = <"
+    },
+    {
+      "question": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20",
+      "predicted_answer": null,
+      "true_answer": "9",
+      "correct": false,
+      "num_tokens": 305,
+      "generated": " Mike scored 4*20=<<4*20=40>>40 points in the first 20 minutes.\nIn the second 20 minutes, he scored 25/100*40=<<25/100*40=10>>10 points.\nSo, he scored 40+10=<<40+10=60>>60 points in the second 20 minu"
+    },
+    {
+      "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he sp",
+      "predicted_answer": null,
+      "true_answer": "75",
+      "correct": false,
+      "num_tokens": 299,
+      "generated": " The two yogurts cost $5.00 each.\nSo, the total cost is $5.00 * 2 = $<<5*2=10.00>>10.00\nThe two yogurts cost $5.00 each.\nSo, the total cost is $10.00 * 2 = $<<10*2=20.00>>20.00\nThe two yogurts cost $5"
+    },
+    {
+      "question": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sel",
+      "predicted_answer": "5",
+      "true_answer": "2",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " He has 13 sets because 8 x $20 = <<8*20=40>>40\nHe has $15 because 40 x $5 = $<<40*5=150>>150\nHe still has $5 because 40 - 150 = <<40-150=5>>5\n#### 5"
+    },
+    {
+      "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much th",
+      "predicted_answer": null,
+      "true_answer": "10",
+      "correct": false,
+      "num_tokens": 301,
+      "generated": " He runs 60*3=<<60*3=180>>180 miles a week\nSo he runs 180/60=<<180/60=3>>3 hours a week\nSo he runs 3*60=<<3*60=180>>180 miles a week\nSo he runs 180/60=<<180/60=3>>3 hours a week\nSo he runs 180/60=<<18"
+    },
+    {
+      "question": "Dana can run at a rate of speed four times faster than she can walk, but she can skip at a rate of s",
+      "predicted_answer": "128",
+      "true_answer": "18",
+      "correct": false,
+      "num_tokens": 266,
+      "generated": " If she runs at a speed of 4 mph, she can run at a speed of 4*2=<<4*2=8>>8 mph faster than she can run.\nIf she runs at a speed of 8 mph, she can run at a speed of 8*2=<<8*2=16>>16 mph faster than she "
+    },
+    {
+      "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's i",
+      "predicted_answer": "6",
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 118,
+      "generated": " Ben's iPhone is 2*2=<<2*2=4>>4 years old.\nSuzy's iPhone is 1*2=<<1*2=2>>2 years old.\nSo, the two iPhone's ages are 4+2=<<4+2=6>>6 years old.\n#### 6"
+    },
+    {
+      "question": "The great dragon, Perg, sat high atop mount Farbo, breathing fire upon anything within a distance of",
+      "predicted_answer": "200",
+      "true_answer": "200",
+      "correct": true,
+      "num_tokens": 210,
+      "generated": " The distance of the javelin's reach is 1000-400= <<1000-400=200>>200 feet\nSo the javelin's reach is 200+200=<<200+200=400>>400 feet\nSo the javelin's reach is 400-400=<<400-400=200>>200 feet outside t"
+    },
+    {
+      "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set",
+      "predicted_answer": "35",
+      "true_answer": "26",
+      "correct": false,
+      "num_tokens": 178,
+      "generated": " Grandma cut each pie into 8 pieces and set them out on the buffet table for the guests to serve themselves.\nThe remaining pieces of pie were cut into 5 pieces and set on the table for the guests to e"
+    },
+    {
+      "question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 ",
+      "predicted_answer": "600",
+      "true_answer": "48",
+      "correct": false,
+      "num_tokens": 136,
+      "generated": " The number of calories in a serving of chips is 250/5 = <<250/5=100>>100 calories\nThe number of calories in a bag of chips is 300g/5 = <<300/5=300>>300 calories\nThe daily calorie target is 2000 and y"
+    },
+    {
+      "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles. ",
+      "predicted_answer": "6",
+      "true_answer": "20",
+      "correct": false,
+      "num_tokens": 182,
+      "generated": " The cost of 10 tapered candles is 10*2=<<10*2=20>>20.\nThe cost of each wax candle is 20*2=<<20*2=40>>40.\nThe cost of each wax candle is 40*2=<<40*2=80>>80.\nThe total cost of all the candles is 40+80="
+    },
+    {
+      "question": "Meredith is a freelance blogger who writes about health topics and submits to clients each day as he",
+      "predicted_answer": null,
+      "true_answer": "104",
+      "correct": false,
+      "num_tokens": 352,
+      "generated": " Meredith spent 5*4=<<5*4=20>>20 hours on Monday and 2/5*20=<<2/5*20=8>>8 hours on Wednesday.\nOn Monday and Wednesday, she spent 20+8=<<20+8=24>>24 hours on her job.\nOn Tuesday, she spent 20-24=<<20-2"
+    },
+    {
+      "question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On h",
+      "predicted_answer": "77",
+      "true_answer": "163",
+      "correct": false,
+      "num_tokens": 265,
+      "generated": " Candice had 80-23=<<80-23=59>>59 post-it notes in her purse before she headed out to work.\nOn her way to work, she stopped at the store and purchased a package of Post-it notes, which she placed in h"
+    },
+    {
+      "question": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent",
+      "predicted_answer": "220",
+      "true_answer": "800",
+      "correct": false,
+      "num_tokens": 135,
+      "generated": " The red tie cost 50/100 * $40 = $<<50/100*40=20>>20 more than blue ties.\nSo the red tie cost $200 - $20 = $<<200-20=200>>200 more than blue ties.\nSo the total cost of red tie and blue tie is $200 + $"
+    },
+    {
+      "question": "Tracy used a piece of wire 4 feet long to support tomato plants in the garden. The wire was cut into",
+      "predicted_answer": "84",
+      "true_answer": "8",
+      "correct": false,
+      "num_tokens": 132,
+      "generated": " The tomato plants were 4 feet long so the total length of the plants is 4*6=<<4*6=24>>24 feet\nThe cut pieces of wire were 6 inches long so the total length of the pieces is 6*24=<<6*24=72>>72 inches\n"
+    },
+    {
+      "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the b",
+      "predicted_answer": "172",
+      "true_answer": "30",
+      "correct": false,
+      "num_tokens": 118,
+      "generated": " Each floor has 8 units, so each floor has 8*8 = <<8*8=160>>160 units\nThe building has 15 floors, so each floor has 160/15 = <<160/15=16>>16 units\nThe total number of units in the building is 160+16 ="
+    },
+    {
+      "question": "Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How",
+      "predicted_answer": null,
+      "true_answer": "294",
+      "correct": false,
+      "num_tokens": 294,
+      "generated": " He makes 252/2=<<252/2=126>>126 eggs per day.\nSo he makes 252*126=<<252*126=1872>>1872 eggs per week.\nSo he makes 1872/2=<<1872/2=126>>126 eggs per week.\nSo he makes 1872*126=<<1872*126=1872>>1872 eg"
+    },
+    {
+      "question": "Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He then travels back at ",
+      "predicted_answer": null,
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 305,
+      "generated": " Tom's ship can travel at 10*10=<<10*10=200>>200 miles per hour\nSo it takes him 200/100=<<200/100=2>>2 hours\nSo it takes him 2*6=<<2*6=12>>12 hours\nSo it takes him 12/100=<<12/100=2>>2 hours\nSo it tak"
+    },
+    {
+      "question": "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books",
+      "predicted_answer": "30",
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 204,
+      "generated": " The weight of his books is 15 pounds because 1/4 * 1/4 = <<15=15>>15\nThe weight of his toys is 1/2 pounds because 1/2 * 1/2 = <<1/2=1>>1/2\nThe weight of his comics is 30 because 15 + 1/4 + 1/2 + 1/2 "
+    },
+    {
+      "question": "A mechanic charges different rates to repair the tires of trucks and cars.  For each truck tire that",
+      "predicted_answer": "1200",
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 280,
+      "generated": " The mechanic repaired 6 truck tires * $60/truck tire = $<<6*60=480>>480 for each truck tire.\nThe mechanic repaired 12 car tires * $40/car tire = $<<12*40=240>>240 for each car tire.\nThe mechanic repa"
+    },
+    {
+      "question": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when the",
+      "predicted_answer": null,
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 348,
+      "generated": " The number of kittens that the sisters have is 7 + 2 = <<7+2=11>>11\nThe number of kittens that the two sisters have is 11 + 12 = <<11+12=23>>23\nThe number of kittens that the three sisters have is 23"
+    },
+    {
+      "question": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to pac",
+      "predicted_answer": "14",
+      "true_answer": "14",
+      "correct": true,
+      "num_tokens": 109,
+      "generated": " Jean eats 2 lollipops and has 30 - 2 = <<30-2=28>>28 lollipops left.\nJean packs 2 lollipops in one bag and has 28 / 2 = <<28/2=14>>14 bags.\n#### 14"
+    },
+    {
+      "question": "Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he ",
+      "predicted_answer": "28",
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 117,
+      "generated": " The tickets cost $7 x 2 = $<<7*2=14>>14.\nThe popcorn cost $7 x 2 = $<<7*2=14>>14.\nSo, he plans to spend $14 + $14 = $<<14+14=28>>28 on the movies.\n#### 28"
+    },
+    {
+      "question": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with identical boxes, ea",
+      "predicted_answer": "225",
+      "true_answer": "83",
+      "correct": false,
+      "num_tokens": 169,
+      "generated": " The weight of the truck is 3755 pounds + 15 pounds = <<3755+15=2225>>2225 pounds.\nThe weight of the truck is 2225 pounds + 15 pounds = <<2225+15=2225>>2225 pounds.\nThe maximum number of boxes that ca"
+    },
+    {
+      "question": "Stephen placed an online order for groceries.  His final bill came to $40.00.  Because this was thro",
+      "predicted_answer": null,
+      "true_answer": "57",
+      "correct": false,
+      "num_tokens": 341,
+      "generated": " The final bill was $40.00 because it was through a delivery vendor.\nThe total cost of the groceries was $40.00+$25.00=$<<40+25.00=75>>75.00\nThe tip was $3.00 because it was a delivery fee.\nThe total "
+    },
+    {
+      "question": "A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. ",
+      "predicted_answer": "2000",
+      "true_answer": "187",
+      "correct": false,
+      "num_tokens": 75,
+      "generated": " There are 6*20=<<6*20=240>>240 fruit in total.\nThere are 67*20=<<67*20=2000>>2000 fruit in total.\n#### 2000"
+    },
+    {
+      "question": "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good.",
+      "predicted_answer": "3",
+      "true_answer": "17",
+      "correct": false,
+      "num_tokens": 114,
+      "generated": " There are 25/100 * 1 = <<25/100*1=5>>5 unripe oranges.\nThere are 20/100 * 2 = <<20/100*2=4>>4 sour oranges.\nThere are 2/100 * 3 = <<2/100*3=3>>3 good oranges.\n#### 3"
+    },
+    {
+      "question": "Janet buys a brooch for her daughter.  She pays $500 for the material to make it and then another $8",
+      "predicted_answer": "600",
+      "true_answer": "1430",
+      "correct": false,
+      "num_tokens": 145,
+      "generated": " The cost of the materials is $500 x 10/100 = $<<500*10/100=10>>10.\nThe cost of the jeweler is $800 x 10/100 = $<<800*10/100=80>>80.\nThe total cost of the two pieces of jewellery is $500 + $800 = $<<5"
+    },
+    {
+      "question": "If Marcy works for the same company for 40 years, she gets an annual pension of $50,000/year. Starti",
+      "predicted_answer": "200000",
+      "true_answer": "25000",
+      "correct": false,
+      "num_tokens": 213,
+      "generated": " Marcy will be entitled to 5/100 * $50,000/year = $<<5/100*50000=5>>5% of the value of her pension.\nAfter 20 years, Marcy will be entitled to $50,000 - $5,000 = $<<50000-50000=200000>>200,000\nAfter 30"
+    },
+    {
+      "question": "Aleena subscribed to a streaming service that charges her $140 per month. If the streaming company c",
+      "predicted_answer": null,
+      "true_answer": "1596",
+      "correct": false,
+      "num_tokens": 327,
+      "generated": " The first half of the year was $140 / 2 = $<<140/2=70>>70.\nThe second half of the year was $70 / 2 = $<<70/2=35>>35.\nThe total amount of money charged for the streaming service was $70 + $35 = $<<70+"
+    },
+    {
+      "question": "Sophia is thinking of taking a road trip in her car, and would like to know how far she can drive on",
+      "predicted_answer": "105",
+      "true_answer": "300",
+      "correct": false,
+      "num_tokens": 164,
+      "generated": " The total distance she can drive is 100 + 4 = <<100+4=110>>110 miles.\nThe amount of gas she needs to fill up is 110 / 12 = <<110/12=5>>5 gallons.\nSo, she can drive for 110 - 5 = <<110-5=105>>105 mile"
+    },
+    {
+      "question": "Jim spends 2 hours watching TV and then decides to go to bed and reads for half as long.  He does th",
+      "predicted_answer": null,
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 305,
+      "generated": " He spends 2*60=<<2*60=120>>120 hours on TV\nSo he spends 120/2=<<120/2=60>>60 hours on TV\nSo he spends 60/2=<<60/2=30>>30 hours on TV\nSo he spends 60+30=<<60+30=90>>90 hours on TV\nSo he spends 90/2=<<"
+    },
+    {
+      "question": "There are four schools competing at a basketball tournament. Each school has sent a girls\u2019 basketbal",
+      "predicted_answer": "20",
+      "true_answer": "48",
+      "correct": false,
+      "num_tokens": 138,
+      "generated": " Each school has sent a girls\u2019 basketball team of 5 players each, and each team has sent a boys\u2019 basketball team of 5 players each.\nThe coaches sent each team with 5 players each, and each school has "
+    },
+    {
+      "question": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer ",
+      "predicted_answer": "220",
+      "true_answer": "595",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " There were 175 - 35 = <<175-35=110>>110 diamonds\nThere were 110 x 2 = <<110*2=220>>220 emeralds\nThere were 220 x 2 = <<220*2=220>>220 rubies\nThere were 220 - 220 = <<220-220=220>>220 gems\n#### 220"
+    },
+    {
+      "question": "There are twice as many boys as girls at Dr. Wertz's school. If there are 60 girls and 5 students to",
+      "predicted_answer": null,
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 296,
+      "generated": " There are 60/2 = <<60/2=30>>30 boys and girls at Dr. Wertz's school.\nThere are 60/5 = <<60/5=12>>12 girls and boys at Dr. Wertz's school.\nThere are 30+12 = <<30+12=54>>54 girls and boys at Dr. Wertz'"
+    },
+    {
+      "question": "Bailey starts with a certain amount of money. Then she receives a weekly allowance of $5 for 8 weeks",
+      "predicted_answer": "80",
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 102,
+      "generated": " The amount of money she received is 5*8 = $<<5*8=40>>40.\nThe amount of money she started with is $100 - $40 = $<<100-40=80>>80.\n#### 80"
+    },
+    {
+      "question": "Judy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturday.  If each class h",
+      "predicted_answer": "420",
+      "true_answer": "7425",
+      "correct": false,
+      "num_tokens": 117,
+      "generated": " Each class has 15 students so she makes 15*5=<<15*5=150>>150 students\nEach class has 8 classes so she makes 8*15=<<8*15=240>>240 students\nSo she makes 150+240=<<150+240=420>>420 dollars in total\n####"
+    },
+    {
+      "question": "Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having tw",
+      "predicted_answer": "100",
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 110,
+      "generated": " The first recipe has 20*2=<<20*2=40>>40 instructions.\nThe second recipe has 2*20=<<2*20=40>>40 instructions.\nSo, Kelian has to read 40+40=<<40+40=100>>100 instructions.\n#### 100"
+    },
+    {
+      "question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a sli",
+      "predicted_answer": "134",
+      "true_answer": "221",
+      "correct": false,
+      "num_tokens": 154,
+      "generated": " Tommy sells 43 brownies and 23 slices of cheesecake for $3 each.\nSo he makes $3 x 43 = $<<3*43=84>>84.\nHe also sells $4 x 23 = $<<4*23=92>>92 slices of cheesecake.\nSo he makes $92 x 23 = $<<92*23=92>"
+    },
+    {
+      "question": "Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charge",
+      "predicted_answer": "600",
+      "true_answer": "255",
+      "correct": false,
+      "num_tokens": 124,
+      "generated": " The cost of the five cell phones is $150 x 5 = $<<150*5=300>>300.\nThe cost of the two percent interest is $300 x 2/100 = $<<300*2/100=30>>30.\nThe cost of the monthly payments is 300 x 3 = $<<300*3=60"
+    },
+    {
+      "question": "Artie has a flower stand at the Farmers Market. He sells three kinds of flowers: marigolds, petunias",
+      "predicted_answer": "91",
+      "true_answer": "88",
+      "correct": false,
+      "num_tokens": 238,
+      "generated": " Marigolds: $2.74 * 12 pots/pot = $<<2.74*12=72>>72\nPetunias: $1.87 * 12 pots/pot = $<<1.87*12=27>>27\nGanti-Ses: $2.12 * 12 pots/pot = $<<2.12*12=36>>36\nTotal: $72 + $27 + $2.72 + $2.12 = $<<72+27+2.1"
+    },
+    {
+      "question": "Luke is spending time at the beach building sandcastles. He eventually notices that each level of a ",
+      "predicted_answer": "128",
+      "true_answer": "60",
+      "correct": false,
+      "num_tokens": 142,
+      "generated": " Each level of a sandcastle will have 16 / 2 = <<16/2=8>>8 square footage.\nSo each level will have 8 * 16 = <<8*16=256>>256 square footage.\nSo the average square footage of the levels is 256 / 2 = <<2"
+    },
+    {
+      "question": "Cecilia just bought a new puppy. According to her veterinarian, she has to feed the puppy 1 cup of d",
+      "predicted_answer": null,
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 341,
+      "generated": " The puppy needs 1 cup of dog food every day for 180 days, so it needs 1*180=<<1*180=360>>360 days\nThe puppy needs 2 cups of dog food every day for 180 days, so it needs 2*180=<<2*180=360>>360 days\nTh"
+    },
+    {
+      "question": "If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calc",
+      "predicted_answer": "200",
+      "true_answer": "100",
+      "correct": false,
+      "num_tokens": 136,
+      "generated": " If David does 400 pounds of laundry, then the amount of laundry he does is 400/2 = <<400/2=200>>200 pounds.\nIf the amount of laundry is 200 pounds, then the amount of laundry David does is 200/4 = <<"
+    },
+    {
+      "question": "Vincent can buy flowers in packages of 3 for $2.50 or in packages of 2 for $1. How much money does h",
+      "predicted_answer": "5",
+      "true_answer": "6",
+      "correct": false,
+      "num_tokens": 162,
+      "generated": " The cost of 3 packages of flowers is $2.50 x 3 = $<<2.5*3=6>>6.\nThe cost of 2 packages of flowers is $1.5 x 2 = $<<1.5*2=2>>2.\nThe cost of 18 flowers at the lower price is $6 - $2.5 = $<<6-2.5=3>>3.\n"
+    },
+    {
+      "question": "John adopts a dog.  He takes the dog to the groomer, which costs $100.  The groomer offers him a 30%",
+      "predicted_answer": "30",
+      "true_answer": "70",
+      "correct": false,
+      "num_tokens": 125,
+      "generated": " The cost of the discount is $100 x .30 = $<<100*.30=30>>30.\nSo the cost of the discount is $100 - $30 = $<<100-30=80>>80.\nSo the cost of the grooming is $80 x .30 = $<<80*.30=30>>30.\n#### 30"
+    },
+    {
+      "question": "Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters ",
+      "predicted_answer": null,
+      "true_answer": "10",
+      "correct": false,
+      "num_tokens": 295,
+      "generated": " The girls each got 1/6 * 24 = <<1/6*24=4>>4 liters of water.\nThe boy got 6 liters of water, so he got 4 + 6 = <<6+4=10>>10 liters of water.\nThe girls each got 1/6 * 24 = <<1/6*24=2>>2 liters of water"
+    },
+    {
+      "question": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his ",
+      "predicted_answer": "2",
+      "true_answer": "17",
+      "correct": false,
+      "num_tokens": 157,
+      "generated": " Charlie has 10 stickers because 21 stickers x 10 stickers = <<21*10=210>>210 stickers\nHe also bought 21 stickers because 210 stickers / 10 stickers = <<210/10=21>>21 stickers\nHe gave 9 of the sticker"
+    },
+    {
+      "question": "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. What are their co",
+      "predicted_answer": "125",
+      "true_answer": "623",
+      "correct": false,
+      "num_tokens": 115,
+      "generated": " The combined weights of the three boys are 125+2=<<125+2=125>>125 pounds.\nThe combined weights of the three girls are 2+1=<<2+1=2>>2 pounds less than the combined weight of the three boys.\nTheir comb"
+    },
+    {
+      "question": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are t",
+      "predicted_answer": "600",
+      "true_answer": "600",
+      "correct": true,
+      "num_tokens": 99,
+      "generated": " Each rose has 25 roses * 8 thorns/rose = <<25*8=200>>200 roses\nEach rose has 200 roses * 8 thorns/rose = <<200*8=400>>400 roses\nSo there are 200 roses + 400 roses = <<200+400=600>>600 roses\n#### 600"
+    },
+    {
+      "question": "A football team played 22 games. They won 8 more than they lost. How many did they win?",
+      "predicted_answer": "22",
+      "true_answer": "15",
+      "correct": false,
+      "num_tokens": 123,
+      "generated": " The team won 8 games because 22 x .8 = <<22*.8=8>>8\nThey also won 2 games because 22 - 8 = <<22-8=2>>2\nThey won 2 games because 22 - 2 = <<22-2=22>>22\nThey won 2 games because 22 + 2 = <<22+2=22>>22\n"
+    },
+    {
+      "question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been",
+      "predicted_answer": "480",
+      "true_answer": "44",
+      "correct": false,
+      "num_tokens": 169,
+      "generated": " Each year has 4*6=<<4*6=24>>24 blocks.\nEach year has 24*4=<<24*4=96>>96 blocks.\nEach year has 24*6=<<24*6=240>>240 blocks.\nIn total, he has 24+96+240=<<24+96+240=480>>480 blocks.\n#### 480"
+    },
+    {
+      "question": "Greg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues",
+      "predicted_answer": "72",
+      "true_answer": "22",
+      "correct": false,
+      "num_tokens": 195,
+      "generated": " The first two times it went off, it rang for 4*3=<<4*3=12>>12 minutes.\nThe second two times, it rang for 3*12=<<3*12=36>>36 minutes.\nThe third time, it rang for 2*12=<<2*12=24>>24 minutes.\nSo, the to"
+    },
+    {
+      "question": "A company pays each of its employees $600 in a month. The company has a policy of increasing the sal",
+      "predicted_answer": null,
+      "true_answer": "9360",
+      "correct": false,
+      "num_tokens": 335,
+      "generated": " The company increased the salaries of each of its employees by 10/100*5 = <<10/100*5=5>>5% of their initial salary.\nSo, the company increased their salaries by 5*10 = <<5*10=50>>50% of their initial "
+    },
+    {
+      "question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined",
+      "predicted_answer": null,
+      "true_answer": "8000",
+      "correct": false,
+      "num_tokens": 295,
+      "generated": " Marilyn's first record sold 10*10=<<10*10=100>>100 copies.\nHarald's first record sold 10*10=<<10*10=100>>100 copies.\nSo, Marilyn's first record sold 10*100=<<10*100=10>>10,000 copies.\nHarald's first "
+    },
+    {
+      "question": "Christina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of att",
+      "predicted_answer": "75",
+      "true_answer": "24",
+      "correct": false,
+      "num_tokens": 145,
+      "generated": " Each guest will bring 1/4 * .75 = <<1/4*75=75>>75 gift bags.\nSo, each guest will bring 1/4 * .75 = <<75/4=75>>75 gift bags.\nSo, the total cost for the guests is 1/4 * .75 + 75/4 * .75 = $<<1/4*75+75/"
+    },
+    {
+      "question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic.  He knows that an adult din",
+      "predicted_answer": "50",
+      "true_answer": "225",
+      "correct": false,
+      "num_tokens": 189,
+      "generated": " The adult dinosaur will eat 10 lbs of potato salad, which is equal to 10*10 = <<10*10=100>>100 lbs of potato salad.\nThe children will eat half as much as the adult, which is equal to 1/2*100 = <<100/"
+    },
+    {
+      "question": "Jan has three times the number of pets as Marcia. Marcia has two more pets than Cindy. If Cindy has ",
+      "predicted_answer": null,
+      "true_answer": "28",
+      "correct": false,
+      "num_tokens": 299,
+      "generated": " Marcia has 2 * 3 = <<2*3=6>>6 pets.\nJan has 3 * 2 = <<3*2=6>>6 pets.\nJan has 6 + 2 = <<6+2=8>>8 pets.\nMarcia has 4 * 3 = <<4*3=12>>12 pets.\nJan has 12 + 6 = <<12+6=18>>18 pets.\nMarcia has 18 - 4 = <<"
+    },
+    {
+      "question": "Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years",
+      "predicted_answer": null,
+      "true_answer": "4",
+      "correct": false,
+      "num_tokens": 309,
+      "generated": " If Jackson is 10 and is 1 year younger than Corey, he is 10+1=<<10+1=11>>11 years old.\nIf Jackson is 5 years old, he is 5+5=<<5+5=10>>10 years old.\nIf Jackson is 10 years old, he is 10+10=<<10+10=20>"
+    },
+    {
+      "question": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald would run the 400-me",
+      "predicted_answer": "38",
+      "true_answer": "36",
+      "correct": false,
+      "num_tokens": 181,
+      "generated": " Gerald ran the 400-meter hurdles two seconds faster than Lee, which is 2*10=<<2*10=20>>20 seconds faster than Lee.\nLee ran the 400-meter hurdles two seconds slower than Gerald, which is 2*10=<<2*10=2"
+    },
+    {
+      "question": "In a neighborhood, the number of rabbits pets is twelve less than the combined number of pet dogs an",
+      "predicted_answer": "216",
+      "true_answer": "348",
+      "correct": false,
+      "num_tokens": 133,
+      "generated": " The number of rabbits pets is 12 less than the combined number of pet dogs and cats, which is 12 + 60 = <<12+60=84>>84.\nThe number of cats is 2*60 = <<2*60=120>>120.\nThe total number of pets in the n"
+    },
+    {
+      "question": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many g",
+      "predicted_answer": null,
+      "true_answer": "40",
+      "correct": false,
+      "num_tokens": 297,
+      "generated": " Out of the 200 students, 2/5 are boys and 2/3 of the girls are in the girl scout.\nOut of the 200 students, 2/5 are boys and 2/3 of the girls are not in the girl scout.\nOut of the 200 students, 2/5 ar"
+    },
+    {
+      "question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more h",
+      "predicted_answer": "30",
+      "true_answer": "3",
+      "correct": false,
+      "num_tokens": 95,
+      "generated": " James slept 9*2/3=<<9*2/3=6>>6 hours.\nHarry slept 9+6=<<9+6=15>>15 hours.\nSo, he slept 9+15=<<9+15=30>>30 hours.\n#### 30"
+    },
+    {
+      "question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomat",
+      "predicted_answer": "32",
+      "true_answer": "12",
+      "correct": false,
+      "num_tokens": 148,
+      "generated": " Each 16 ounce can of tomatoes in the batch of tomato sauce makes 32/2 = <<32/2=16>>16 ounces of tomato sauce.\nEach 16 ounce can of tomatoes in the batch of tomato sauce makes 32/2 = <<32/2=16>>16 oun"
+    },
+    {
+      "question": "Cars have lined up on the motorway. Some of the cars drive through in the first 15 minutes of the tr",
+      "predicted_answer": "2500",
+      "true_answer": "5",
+      "correct": false,
+      "num_tokens": 213,
+      "generated": " The first 15 minutes of the traffic jam were 30*15=<<30*15=3000>>3000 cars\nThe next 20 cars through in 15 minutes were 2*20=<<2*20=200>>200 cars\nThe next 5 cars from the line took an exit so they did"
+    },
+    {
+      "question": "Mary is an avid gardener. Yesterday, she received 18 new potted plants from her favorite plant nurse",
+      "predicted_answer": null,
+      "true_answer": "58",
+      "correct": false,
+      "num_tokens": 340,
+      "generated": " Mary received 18 new potted plants from her plant nursery.\nShe has 2 potted plants on each of the 40 window ledges of her large country home.\nSo, she will have 18 + 2 = <<18+2=20>>20 plants on each o"
+    }
+  ]
+}

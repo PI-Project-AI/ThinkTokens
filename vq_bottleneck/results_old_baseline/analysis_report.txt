@@ -1,0 +1,68 @@
+================================================================================
+INTERMEDIATE REASONING LANGUAGE - RESULTS ANALYSIS
+================================================================================
+
+1. BASELINE MODEL (Pythia-410M)
+--------------------------------------------------------------------------------
+Model: EleutherAI/pythia-410m
+Accuracy: 0.00% (0.0%)
+Avg Tokens: 301.0
+Total Tokens: 30102
+Token Range: 80 - 389
+
+2. VQ MODEL (With Intermediate Reasoning)
+--------------------------------------------------------------------------------
+Model: EleutherAI/pythia-410m
+Checkpoint: final_model.pt
+Accuracy: 3.00% (3.0%)
+Avg Tokens: 205.0
+Total Tokens: 20498
+Token Range: 75 - 355
+
+Codebook Statistics:
+  Codes Used: 218/512
+  Utilization: 42.6%
+
+3. COMPARATIVE ANALYSIS
+--------------------------------------------------------------------------------
+Accuracy Change: +3.00 percentage points (baseline is 0%, cannot compute %)
+Token Reduction: +96.0 tokens (+31.9%)
+  Baseline avg: 301.0
+  VQ avg: 205.0
+
+4. SUCCESS CRITERIA
+--------------------------------------------------------------------------------
+✗ FAIL: Codebook utilization >50%
+✓ PASS: Token reduction >20%
+✓ PASS: Accuracy within 5% of baseline
+✓ PASS: No catastrophic accuracy loss
+
+Criteria met: 3/4
+
+5. TRAINING PROGRESS
+--------------------------------------------------------------------------------
+Epoch 1:
+  Total Loss: 1.6734
+  LM Loss: 1.1601
+  VQ Loss: 5.1329
+  Code Usage: 42.3%
+Epoch 2:
+  Total Loss: 0.8120
+  LM Loss: 0.7249
+  VQ Loss: 0.8716
+  Code Usage: 42.6%
+
+6. KEY INSIGHTS
+--------------------------------------------------------------------------------
+⚠️  PARTIAL CODEBOOK USAGE: Room for improvement.
+✓ Significant compression achieved (>20%).
+
+7. RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Validate scaling: Test on Pythia-1.4B to check if gains persist
+• Test transfer: Evaluate on SVAMP (out-of-distribution test)
+• Analyze codes: Visualize learned codebook structure
+• Ablation studies: Try different bottleneck placements
+• Interpretability: Probe codebook for semantic meaning
+
+================================================================================

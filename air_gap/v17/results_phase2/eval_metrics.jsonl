@@ -1,0 +1,35 @@
+{"epoch": 1, "tasks": {"math": {"acc": 0.0, "acc_ir_shuffle": 0.0}, "story": {"prec": 0.7541176470588229, "rec": 0.7625, "f1": 0.7581818181818198, "prec_ir_shuffle": 0.7541176470588229, "rec_ir_shuffle": 0.7625, "f1_ir_shuffle": 0.7581818181818198, "total": 350}}}
+{"epoch": 2, "tasks": {"math": {"acc": 0.08666666666666667, "acc_ir_shuffle": 0.02666666666666667}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 1.0, "rec_ir_shuffle": 1.0, "f1_ir_shuffle": 1.0, "total": 350}}}
+{"epoch": 1, "tasks": {"math": {"acc": 0.19333333333333333, "acc_ir_shuffle": 0.035}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 1.0, "rec_ir_shuffle": 1.0, "f1_ir_shuffle": 1.0, "total": 1400}}}
+{"epoch": 2, "tasks": {"math": {"acc": 0.4866666666666667, "acc_ir_shuffle": 0.06}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.6578571428571428, "rec_ir_shuffle": 0.6578571428571428, "f1_ir_shuffle": 0.6578571428571428, "total": 1400}}}
+{"epoch": 3, "tasks": {"math": {"acc": 0.52, "acc_ir_shuffle": 0.028333333333333332}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.6428571428571429, "rec_ir_shuffle": 0.6428571428571429, "f1_ir_shuffle": 0.6428571428571429, "total": 1400}}}
+{"epoch": 1, "tasks": {"math": {"acc": 0.334, "acc_ir_shuffle": 0.0006666666666666666}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.5882857142857143, "rec_ir_shuffle": 0.5811638655462069, "f1_ir_shuffle": 0.584616883116869, "total": 3500}}}
+{"epoch": 2, "tasks": {"math": {"acc": 0.23266666666666666, "acc_ir_shuffle": 0.016}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.5883928571428572, "rec_ir_shuffle": 0.580981092436962, "f1_ir_shuffle": 0.58457467532466, "total": 3500}}}
+{"epoch": 3, "tasks": {"math": {"acc": 0.31733333333333336, "acc_ir_shuffle": 0.009333333333333334}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.5790357142857142, "rec_ir_shuffle": 0.5714968487394834, "f1_ir_shuffle": 0.5751482683982531, "total": 3500}}}
+{"epoch": 4, "tasks": {"math": {"acc": 0.5246666666666666, "acc_ir_shuffle": 0.0013333333333333333}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.5810714285714286, "rec_ir_shuffle": 0.5734768907562903, "f1_ir_shuffle": 0.5771590909090758, "total": 3500}}}
+{"epoch": 5, "tasks": {"math": {"acc": 0.4573333333333333, "acc_ir_shuffle": 0.01}, "story": {"prec": 1.0, "rec": 1.0, "f1": 1.0, "prec_ir_shuffle": 0.5875, "rec_ir_shuffle": 0.5800504201680545, "f1_ir_shuffle": 0.5836623376623223, "total": 3500}}}
+{"epoch": 1, "tasks": {"math": {"acc": 0.4, "acc_shuffle": 0.055}, "story": {"f1": 0.3982250906973615, "f1_shuffle": 0.3296864478828174}}}
+{"epoch": 2, "tasks": {"math": {"acc": 0.8016666666666666, "acc_shuffle": 0.09333333333333334}, "story": {"f1": 0.4037665337519303, "f1_shuffle": 0.3253528064555574}}}
+{"epoch": 3, "tasks": {"math": {"acc": 0.8716666666666667, "acc_shuffle": 0.115}, "story": {"f1": 0.4070827865419816, "f1_shuffle": 0.3278046561802527}}}
+{"epoch": 4, "tasks": {"math": {"acc": 0.9316666666666666, "acc_shuffle": 0.085}, "story": {"f1": 0.40653985184679853, "f1_shuffle": 0.3221249061239813}}}
+{"epoch": 5, "tasks": {"math": {"acc": 0.9383333333333334, "acc_shuffle": 0.09}, "story": {"f1": 0.4077252305243467, "f1_shuffle": 0.3218610714273972}}}
+{"epoch": 1, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.005}, "story": {"f1": 0.616267607991954, "f1_shuffle": 0.1199709795702185}}}
+{"epoch": 2, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.013333333333333334}, "story": {"f1": 0.6122361523469374, "f1_shuffle": 0.10842280397151603}}}
+{"epoch": 3, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.02}, "story": {"f1": 0.6179385117712998, "f1_shuffle": 0.11345830500599352}}}
+{"epoch": 4, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.011666666666666667}, "story": {"f1": 0.6194293244995106, "f1_shuffle": 0.11276964653259565}}}
+{"epoch": 5, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.043333333333333335}, "story": {"f1": 0.6215445878849458, "f1_shuffle": 0.10487298524596306}}}
+{"epoch": 6, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.03666666666666667}, "story": {"f1": 0.6249848733392485, "f1_shuffle": 0.11049507497499017}}}
+{"epoch": 7, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.06333333333333334}, "story": {"f1": 0.6245282444822035, "f1_shuffle": 0.10896944059663582}}}
+{"epoch": 8, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.023333333333333334}, "story": {"f1": 0.6230504022583613, "f1_shuffle": 0.11211616587645293}}}
+{"epoch": 9, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.028333333333333332}, "story": {"f1": 0.6286109912513816, "f1_shuffle": 0.10803516581270899}}}
+{"epoch": 10, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.013333333333333334}, "story": {"f1": 0.6262415060396419, "f1_shuffle": 0.10311786711689824}}}
+{"epoch": 11, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.006666666666666667}, "story": {"f1": 0.6281600074811479, "f1_shuffle": 0.10637192845933265}}}
+{"epoch": 12, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.023333333333333334}, "story": {"f1": 0.6306739265506394, "f1_shuffle": 0.10383875012383963}}}
+{"epoch": 13, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.025}, "story": {"f1": 0.6367623896779058, "f1_shuffle": 0.10659945973924972}}}
+{"epoch": 14, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.043333333333333335}, "story": {"f1": 0.6260348458901599, "f1_shuffle": 0.10781168423439613}}}
+{"epoch": 15, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.051666666666666666}, "story": {"f1": 0.6330355165363813, "f1_shuffle": 0.10821792961249542}}}
+{"epoch": 16, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.056666666666666664}, "story": {"f1": 0.6299503115845165, "f1_shuffle": 0.10954374556855961}}}
+{"epoch": 17, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.03666666666666667}, "story": {"f1": 0.6305534437197647, "f1_shuffle": 0.11200517061365367}}}
+{"epoch": 18, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.04833333333333333}, "story": {"f1": 0.6344374442440962, "f1_shuffle": 0.1141341393904461}}}
+{"epoch": 19, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.05}, "story": {"f1": 0.6321487881802855, "f1_shuffle": 0.11027877607867059}}}
+{"epoch": 20, "tasks": {"math": {"acc": 1.0, "acc_shuffle": 0.06}, "story": {"f1": 0.6334583755811862, "f1_shuffle": 0.10933483209071063}}}

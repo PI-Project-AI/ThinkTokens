@@ -1,0 +1,10 @@
+{
+  "model_name": "EleutherAI/pythia-410m",
+  "num_codes": 512,
+  "batch_size": 4,
+  "epochs": 2,
+  "learning_rate": 2e-05,
+  "max_length": 256,
+  "max_samples": 500,
+  "device": "cuda"
+}
